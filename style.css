@@ -1,0 +1,103 @@
+.wrapper1{
+    left: 110px;
+  }
+  
+  #g56{
+    display: block;
+    width: 200px;
+    height: 40px;
+    line-height: 40px;
+    font-size: 18px;
+    font-family: sans-serif;
+    text-decoration: none;
+    color: #333;
+    border: 2px solid #333;
+    letter-spacing: 2px;
+    text-align: center;
+    position: relative;
+    transition: all .35s;
+  }
+  
+  #g56 span{
+    position: relative;
+    z-index: 2;
+  }
+  
+  #g56:after{
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 100%;
+    background: #ff003b;
+    transition: all .35s;
+  }
+  
+  #g56:hover{
+    color: #fff;
+  }
+  
+  #g56:hover:after{
+    width: 100%;
+  }
+body{
+    background-image: url("WB01741L.GIF");
+   
+}
+
+h1{
+    margin-bottom: 2px;
+    text-align: center;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-transform: uppercase;
+    color: rgb(228, 92, 92);
+    
+}
+
+section{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large ;
+    margin-left: 20px;
+    color: rgb(6, 32, 32);
+}   
+li{
+    color: rgb(17, 139, 94);
+    font-size: x-large;
+    text-decoration: underline;
+}
+h2{
+    color: rgb(31, 33, 84);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: x-large;
+}
+#i1{
+    width: 1065 px;
+    height: 175px;
+    display: inline-block;
+    vertical-align: top;
+
+}
+h3{
+    
+    display: block;
+    margin-right: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+nav{
+    display: inline-block;
+    vertical-align: top;
+}
+.flotte {
+float:left;
+}
+video{
+    width: 1070px;
+    height: 500px;
+}
+@media screen and (max-width:600px) {
+    video{
+        width: auto;
+        height: auto;
+    }
+}
